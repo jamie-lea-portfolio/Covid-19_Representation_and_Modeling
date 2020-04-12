@@ -9,7 +9,7 @@ ln /home/happy/deep_learning/covid_graph_model/images/current_covid_spread-anima
 cd /home/happy/deep_learning/covid_graph_model-resume
 git pull
 time_stamp=$(date)
-echo "updating at $time_stamp\n" >> auto_update_log
+echo "updating at $time_stamp\n" >> auto_update.log
 git add *
 git commit -m "auto update animation"
 git push
