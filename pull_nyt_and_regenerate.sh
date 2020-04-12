@@ -4,8 +4,6 @@ time_stamp=$(date)
 echo "Script started at $time_stamp\n" >> /tmp/debug_cron
 # get plotly orca to work
 export DISPLAY=:0
-conda list >> /tmp/debug_cron_env
-env >> /tmp/debug_cron_env
 cd /home/happy/deep_learning/covid_graph_model/nyt_repo && git pull
 cd /home/happy/deep_learning/covid_graph_model/python_scripts
 python3 clean_nyt_county_data.py
