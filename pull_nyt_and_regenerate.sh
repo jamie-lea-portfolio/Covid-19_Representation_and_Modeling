@@ -1,5 +1,7 @@
 #! /bin/bash
 # this script sits in the private repository and is run by a cron job every day at 5:50am CST, it is also occassionally run manually
+PATH=$PATH:/home/happy/anaconda3/condabin:/usr/bin/python3:/usr/bin/git
+echo "Script started" >> /tmp/debug_cron
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate covid_graph
 cd /home/happy/deep_learning/covid_graph_model/nyt_repo && git pull
