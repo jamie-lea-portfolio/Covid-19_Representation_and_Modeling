@@ -1,4 +1,4 @@
-# Covid-19_Representation_and_Modeling
+# Covid-19 Representation and Modeling
 This is a portion of an ongoing project.  Currently the only public portion is the data and code necessary to generate an animation of covid-19 spreading across the US.  Data is provided by the New York Times and the US Census Beaureu.  The animation is automatically regenerated and pushed to this repo everyday at about 6am (TODO: verify cronjob is working).
 
 Also in progress is the representation of the spread as a networkx graph timeseries with the end goal being netowrk diffusion modeling.  That portion is not in this public repo.
