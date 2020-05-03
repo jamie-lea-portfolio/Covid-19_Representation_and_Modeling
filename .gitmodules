@@ -1,0 +1,6 @@
+[submodule "johns_hopkins_data"]
+	path = johns_hopkins_data
+	url = git@github.com:CSSEGISandData/COVID-19.git
+[submodule "nyt_repo"]
+	path = nyt_repo
+	url = git@github.com:nytimes/covid-19-data.git
