@@ -1,1 +1,0 @@
-/home/happy/deep_learning/covlid_graph_model/auto_update_script.sh
