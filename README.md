@@ -5,5 +5,13 @@ This is a side project of a larger modeling project.
 
 This repo is about putting out interesting bits as I finish them.  Since it is based on selective hardlinks to a private repo and updates are done automatically, it may not always be complete or well documented code, but the images should be.
 
-<img src=images/jh-log_cum_cases-USA_anim.gif>
-<img src=images/jh-log_cum_deaths-USA_anim.gif>
+<img src=images/jh-log_cum_cases-USA_anim.UMSL.gif>
+<img src=images/jh-log_cum_deaths-USA_anim.UMSL.gif>
+<img src=images/jh-log_cum_cases-MO_IL_anim.UMSL.gif>
+<img src=images/jh-log_cum_deaths-MO_IL_anim.UMSL.gif>
+
+
+<img src=images/jh-log_cum_cases-USA_anim.UMSL.gif>
+<img src=images/jh-log_cum_deaths-USA_anim.UMSL.gif>
+<img src=images/jh-log_cum_cases-MO_IL_anim.UMSL.gif>
+<img src=images/jh-log_cum_deaths-MO_IL_anim.UMSL.gif>
