@@ -1074,3 +1074,265 @@ Regeneration script finished at Wed May  6 05:02:41 CDT 2020
 
 
 
+Regenerating at Thu May  7 04:55:01 CDT 2020
+--------------------------------------
+Attempting to pull Johns Hopkins repo
+--------------------------------------
+From github.com:CSSEGISandData/COVID-19
+   78cea7a7..ecb26cf5  master     -> origin/master
+   cc418b36..b004b623  web-data   -> origin/web-data
+Updating 78cea7a7..ecb26cf5
+Fast-forward
+ .../csse_covid_19_daily_reports/05-06-2020.csv     | 3217 ++++++++++
+ .../csse_covid_19_daily_reports_us/05-06-2020.csv  |   59 +
+ .../csse_covid_19_time_series/Errata.csv           |  256 +-
+ .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++++----------
+ .../time_series_covid19_confirmed_global.csv       |  534 +-
+ .../time_series_covid19_deaths_US.csv              | 6524 ++++++++++----------
+ .../time_series_covid19_deaths_global.csv          |  534 +-
+ .../time_series_covid19_recovered_global.csv       |  506 +-
+ 8 files changed, 10716 insertions(+), 7438 deletions(-)
+ create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports/05-06-2020.csv
+ create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports_us/05-06-2020.csv
+
+Attempting to pull private project repo
+--------------------------------------
+Already up to date.
+
+Attempting to pull public resume repo
+--------------------------------------
+From github.com-resume:jamie-lea-portfolio/Covid-19_Representation_and_Modeling
+   343ee61..24e14bb  master     -> origin/master
+Updating 343ee61..24e14bb
+Fast-forward
+ README.md | 23 ++++++++++++-----------
+ 1 file changed, 12 insertions(+), 11 deletions(-)
+
+Running python scripts
+--------------------------------------
+Changing directory to covid_graph_model/python_scripts
+
+jh_clean_us_timeseries.py
+--------------------------------
+
+> jh_check_timeseries.py
+--------------------------------
+
+> jh_render_spread-master.py ::
+
+USA: cum cases
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - USA; debug - False
+
+Maxium value of feature is:  178351
+Maximum value of colorbar is:  180000.0
+
+Number of time steps: 106
+
+The date is: 05-07-20
+Removing previous jh-log_cum_cases-USA_cur
+Moving previous current to jh-log_cum_cases-USA_old
+Making new jh-log_cum_cases-USA_cur directory.  Sub dir is: gen_05-07-20
+
+Most recent date is: 05-06-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-USA_cur/gen_05-07-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+USA: cum deaths
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - USA; debug - False
+
+Maxium value of feature is:  19174
+Maximum value of colorbar is:  20000.0
+
+Number of time steps: 106
+
+The date is: 05-07-20
+Removing previous jh-log_cum_deaths-USA_cur
+Moving previous current to jh-log_cum_deaths-USA_old
+Making new jh-log_cum_deaths-USA_cur directory.  Sub dir is: gen_05-07-20
+
+Most recent date is: 05-06-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-USA_cur/gen_05-07-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum cases
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - MO_IL; debug - False
+
+Maxium value of feature is:  178351
+Maximum value of colorbar is:  180000.0
+
+Number of time steps: 106
+
+The date is: 05-07-20
+Removing previous jh-log_cum_cases-MO_IL_cur
+Moving previous current to jh-log_cum_cases-MO_IL_old
+Making new jh-log_cum_cases-MO_IL_cur directory.  Sub dir is: gen_05-07-20
+
+Most recent date is: 05-06-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-MO_IL_cur/gen_05-07-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum deaths
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - MO_IL; debug - False
+
+Maxium value of feature is:  19174
+Maximum value of colorbar is:  20000.0
+
+Number of time steps: 106
+
+The date is: 05-07-20
+Removing previous jh-log_cum_deaths-MO_IL_cur
+Moving previous current to jh-log_cum_deaths-MO_IL_old
+Making new jh-log_cum_deaths-MO_IL_cur directory.  Sub dir is: gen_05-07-20
+
+Most recent date is: 05-06-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-MO_IL_cur/gen_05-07-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+> jh_collect_zips.py
+--------------------------------
+  File "jh_collect_zips.py", line 37
+    raise # not a directroy exist error.  
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+
+Removing unneeded images directory covid_graph_model/images/spread_anim/jh
+Update master repo.
+--------------------------------------
+Changing directory to root master repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
+
+[master f52f3ea] auto update animation
+ 27 files changed, 4839 insertions(+), 2 deletions(-)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.png (94%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.png (89%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.png (96%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.png (89%)
+ create mode 100644 python_scripts/__pycache__/clean_nyt_county_data.py
+ create mode 100644 python_scripts/__pycache__/jh_check_timeseries.py
+ create mode 100644 python_scripts/__pycache__/jh_clean_us_timeseries.py
+ create mode 100644 python_scripts/__pycache__/jh_collect_zips.py
+ create mode 100644 python_scripts/__pycache__/jh_render_spread-master.py
+ create mode 100644 python_scripts/__pycache__/nytimes_render_spread-optimize.py
+
+To github.com:jml-happy/covid_graph.git
+   ec5d247..f52f3ea  master -> master
+
+
+Update resume repo
+--------------------------------------
+Changing directory to root resume repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
