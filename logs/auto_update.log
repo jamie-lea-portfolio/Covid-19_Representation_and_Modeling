@@ -3244,3 +3244,277 @@ Update resume repo
 Changing directory to root resume repo dir: covid_graph_model
 Attempting: git add * && git commit && git push
 
+
+[master a6573fd] auto update animation
+ 21 files changed, 3537 insertions(+)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.png (94%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.png (89%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.UMSL.png (98%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.png (95%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.png (89%)
+
+To github.com-resume:jamie-lea-portfolio/Covid-19_Representation_and_Modeling.git
+   801fb5a..a6573fd  master -> master
+
+
+Regeneration script finished at Thu May 14 05:03:23 CDT 2020
+===============================================================================
+
+
+
+Regenerating at Fri May 15 04:55:01 CDT 2020
+--------------------------------------
+Attempting to pull Johns Hopkins repo
+--------------------------------------
+From github.com:CSSEGISandData/COVID-19
+   5c2b5ff9..f51f51bf  master     -> origin/master
+   cc771063..e6dee55c  web-data   -> origin/web-data
+Updating 5c2b5ff9..f51f51bf
+Fast-forward
+ README.md                                          |    5 +
+ csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv   |   90 +-
+ .../csse_covid_19_daily_reports/05-14-2020.csv     | 3295 ++++++++++
+ .../csse_covid_19_daily_reports_us/05-14-2020.csv  |   59 +
+ .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++++----------
+ .../time_series_covid19_confirmed_global.csv       |  535 +-
+ .../time_series_covid19_deaths_US.csv              | 6524 ++++++++++----------
+ .../time_series_covid19_deaths_global.csv          |  535 +-
+ .../time_series_covid19_recovered_global.csv       |  508 +-
+ .../who_covid_19_sit_rep_time_series.csv           |  Bin 199520 -> 99770 bytes
+ 10 files changed, 10716 insertions(+), 7359 deletions(-)
+ create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports/05-14-2020.csv
+ create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports_us/05-14-2020.csv
+
+Attempting to pull private project repo
+--------------------------------------
+Already up to date.
+
+Attempting to pull public resume repo
+--------------------------------------
+Already up to date.
+
+Running python scripts
+--------------------------------------
+Changing directory to covid_graph_model/python_scripts
+
+jh_clean_us_timeseries.py
+--------------------------------
+
+> jh_check_timeseries.py
+--------------------------------
+
+> jh_render_spread-master.py ::
+
+USA: cum cases
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - USA; debug - False
+
+Maxium value of feature is:  188545
+Maximum value of colorbar is:  190000.0
+
+Number of time steps: 114
+
+The date is: 05-15-20
+Removing previous jh-log_cum_cases-USA_cur
+Moving previous current to jh-log_cum_cases-USA_old
+Making new jh-log_cum_cases-USA_cur directory.  Sub dir is: gen_05-15-20
+
+Most recent date is: 05-14-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-USA_cur/gen_05-15-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+USA: cum deaths
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - USA; debug - False
+
+Maxium value of feature is:  20406
+Maximum value of colorbar is:  21000.0
+
+Number of time steps: 114
+
+The date is: 05-15-20
+Removing previous jh-log_cum_deaths-USA_cur
+Moving previous current to jh-log_cum_deaths-USA_old
+Making new jh-log_cum_deaths-USA_cur directory.  Sub dir is: gen_05-15-20
+
+Most recent date is: 05-14-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-USA_cur/gen_05-15-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum cases
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - MO_IL; debug - False
+
+Maxium value of feature is:  188545
+Maximum value of colorbar is:  190000.0
+
+Number of time steps: 114
+
+The date is: 05-15-20
+Removing previous jh-log_cum_cases-MO_IL_cur
+Moving previous current to jh-log_cum_cases-MO_IL_old
+Making new jh-log_cum_cases-MO_IL_cur directory.  Sub dir is: gen_05-15-20
+
+Most recent date is: 05-14-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-MO_IL_cur/gen_05-15-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum deaths
+--------------------------------
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - MO_IL; debug - False
+
+Maxium value of feature is:  20406
+Maximum value of colorbar is:  21000.0
+
+Number of time steps: 114
+
+The date is: 05-15-20
+Removing previous jh-log_cum_deaths-MO_IL_cur
+Moving previous current to jh-log_cum_deaths-MO_IL_old
+Making new jh-log_cum_deaths-MO_IL_cur directory.  Sub dir is: gen_05-15-20
+
+Most recent date is: 05-14-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-MO_IL_cur/gen_05-15-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+
+Loading UMSL watermark
+Rendering UMSL animation
+
+Copying main most recent day to master images dir
+Saving UMSL most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+UMSL:
+
+Linking last day images to resume repo:
+Master:
+UMSL:
+
+!!!Script jh_render_spread-master.py: ending
+
+> jh_collect_zips.py
+--------------------------------
+  File "jh_collect_zips.py", line 37
+    raise # not a directroy exist error.  
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+
+Removing unneeded images directory covid_graph_model/images/spread_anim/jh
+Update master repo.
+--------------------------------------
+Changing directory to root master repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
+
+[master cd18d9a] auto update animation
+ 21 files changed, 3537 insertions(+), 1 deletion(-)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.png (95%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.png (89%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.png (96%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.png (89%)
+
+To github.com:jml-happy/covid_graph.git
+   e04b21d..cd18d9a  master -> master
+
+
+Update resume repo
+--------------------------------------
+Changing directory to root resume repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
