@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+debug = False
 
 # In[2]:
 
@@ -114,7 +115,10 @@ jh_us_deaths_df["date"] = jh_us_deaths_df["date"].astype(np.datetime64)
 
 
 # In[16]:
-
+if debug:
+    print(jh_us_cases_df[jh_us_cases_df["unit_fips"].isna()])
+    print(jh_us_cases_df[jh_us_cases_df["subunit_fips"].isna()])
+    exit(1)
 
 jh_us_cases_df = jh_us_cases_df.astype({"unit_fips": int, "subunit_fips": int})
 jh_us_deaths_df = jh_us_deaths_df.astype({"subunit_fips": int, "subunit_fips": int})

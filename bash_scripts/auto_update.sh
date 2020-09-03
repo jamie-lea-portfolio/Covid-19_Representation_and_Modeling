@@ -39,6 +39,9 @@ cd /home/happy/deep_learning/covid_graph_model/python_scripts
 echo ""
 
 # ###### CLEAN DATA
+echo "jh_clean_codemap.py"
+echo "--------------------------------"
+python3 jh_clean_codemap.py
 
 echo "jh_clean_us_timeseries.py"
 echo "--------------------------------"
