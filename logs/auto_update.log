@@ -9885,3 +9885,28 @@ Update resume repo
 Changing directory to root resume repo dir: covid_graph_model
 Attempting: git add * && git commit && git push
 
+
+[master 6cfde68] auto update animation
+ 21 files changed, 3545 insertions(+)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_cases-MO_IL_most_recent_day.png (96%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_cases-USA_most_recent_day.png (89%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.UMSL.png (97%)
+ rewrite images/jh-log_cum_deaths-MO_IL_most_recent_day.png (95%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.UMSL.png (90%)
+ rewrite images/jh-log_cum_deaths-USA_most_recent_day.png (87%)
+
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File images/jh-log_cum_cases-USA_anim.UMSL.gif is 55.27 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File images/jh-log_cum_cases-USA_anim.gif is 55.26 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+To github.com-resume:jamie-lea-portfolio/Covid-19_Representation_and_Modeling.git
+   3f30680..6cfde68  master -> master
+
+
+Regeneration script finished at Sun Jun  7 05:05:00 CDT 2020
+===============================================================================
+
+
+

@@ -30,13 +30,13 @@ print("The date is: {}".format(date_stamp))
 zip_dir = "/home/happy/deep_learning/covid_graph_model/zips"
 print("The zip dir is: {}".format(zip_dir))
 try:
-    os.makedirs(zip_dir)
+    os.makedirs(zip_dir, exist_ok=True)
 except OSError as e:
-        if e.errno != errno.EEXIST:
-        	print("Zip dir did not exist but could not be made!")
-            raise # not a directroy exist error.  
-            # the directory should have diaappeared in previous step, so we should only get BAD errors
-            # but if it still exists, we'll just use it and any remaining images will get overwritten
+    if e.errno != errno.EEXIST:
+    	print("Zip dir did not exist but could not be made!")
+        raise # not a directroy exist error.  
+        # the directory should have diaappeared in previous step, so we should only get BAD errors
+        # but if it still exists, we'll just use it and any remaining images will get overwritten
 
 # In[5]:
 

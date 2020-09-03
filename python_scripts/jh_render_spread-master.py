@@ -135,7 +135,7 @@ except OSError as e:
 print("Making new {} directory.  Sub dir is: {}".format(cur_dir_name, date_stamp))
 try:
     img_dir = os.path.join(cur_path, date_stamp)
-    os.makedirs(img_dir)
+    os.makedirs(img_dir, exist_ok=True)
 except OSError as e:
         if e.errno != errno.EEXIST:
             raise # not a directroy exist error.  
@@ -352,7 +352,7 @@ resume_image_dir = os.path.join(resume_repo_dir, "images")
 if args.debug:
     master_image_dir = os.path.join(master_image_dir, "debug")
     try:
-        os.makedirs(master_image_dir)
+        os.makedirs(master_image_dir, exist_ok=True)
     except OSError as e:
         if e.errno != errno.EEXIST:
             raise # not a directroy exist error.  

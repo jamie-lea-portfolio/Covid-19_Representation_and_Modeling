@@ -101,7 +101,7 @@ ver = 0
 while not mkdir_success:
     try:
         img_dir = os.path.join("../images/spread_anim", "upto_" + most_recent_date, "ver_" + str(ver))
-        os.makedirs(img_dir)
+        os.makedirs(img_dir, exist_ok=True)
         mkdir_success = True
     except OSError as e:
             if e.errno != errno.EEXIST:
