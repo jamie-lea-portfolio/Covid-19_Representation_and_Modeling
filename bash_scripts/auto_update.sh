@@ -81,7 +81,7 @@ echo ""
 # Resize and optimize .gif's.  This is better than what PIL can do.
 cd /home/happy/deep_learning/covid_graph_model/images
 for img in *.gif; do
-	gifsicle -i img -O3 --colors 512 --resize 1280x720 -o img
+	gifsicle -i $img -O3 --resize 1280x720 -o $img
 done
 
 
