@@ -10361,3 +10361,16 @@ Update resume repo
 Changing directory to root resume repo dir: covid_graph_model
 Attempting: git add * && git commit && git push
 
+
+[master d17d6ce] auto update animation
+ 3 files changed, 221 insertions(+)
+
+To github.com-resume:jamie-lea-portfolio/Covid-19_Representation_and_Modeling.git
+   5eff673..d17d6ce  master -> master
+
+
+Regeneration script finished at Fri Sep  4 17:17:20 CDT 2020
+===============================================================================
+
+
+
