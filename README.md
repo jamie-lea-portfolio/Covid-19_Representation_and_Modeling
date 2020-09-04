@@ -3,7 +3,7 @@
 
 Since it is based on selective hardlinks to a private repo and updates are done automatically, it may not always be complete or well documented code, but the images should be.
 
-Scroll down to see just MO/IL.  Images are 1920x1080.  Folder link at bottom.
+Scroll down to see just MO/IL.  Images are 1280x7200.  Folder link at bottom.
 <img src=images/jh-log_cum_cases-USA_anim.gif>
 <img align="left" width="425" src=images/jh-log_cum_cases-USA_most_recent_day.png>
 <img align="right" width="425" src=images/jh-log_cum_deaths-USA_most_recent_day.png>
