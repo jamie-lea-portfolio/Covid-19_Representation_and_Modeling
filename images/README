@@ -1,1 +1,1 @@
-Can't do new cases right now, the data is too bad.
+Can't do new cases right now, the data from John's Hopkins for cummulative cases/deaths isn't monotonically increasing.  Thus a rolling window cannot be applied.  This can be fixed, but is not a priority.
