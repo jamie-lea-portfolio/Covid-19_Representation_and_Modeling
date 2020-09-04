@@ -240,6 +240,16 @@ layout_var = go.Layout(
             yref='paper',
             x=-0.0125,
             y=-0.05,
+        ),
+        go.layout.Annotation(
+            text="by Jamie Lea<br>https://github.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling",
+            font_size=18,
+            align='right',
+            showarrow=False,
+            xref='paper',
+            yref='paper',
+            x=0.9875,
+            y=-0.05,
         )
     ],
     margin={"t": 112, "b": 72, "l": 72, "r": 32}
@@ -337,7 +347,9 @@ for idx, date in enumerate(time_index):
     
     
     titletxt = base_title_str.format(cur_date_str)
-    animation_figure.update_layout({"title": {"text": titletxt}})
+    animation_figure.update_layout(
+        {"title": {"text": titletxt}}
+        )
 
     last_image = write_anim_frame()
 
@@ -372,18 +384,6 @@ resume_anim_path = os.path.join(resume_image_dir, anim_name)
 last_slice_name = filename_stem + "most_recent_day.png"
 master_last_slice_path = os.path.join(master_image_dir, last_slice_name)
 resume_last_slice_path = os.path.join(resume_image_dir, last_slice_name)
-
-### UMSL
-umsl_watermark = "../images/umsl_type_red_981e32.gif"
-
-umsl_anim_name = filename_stem + "anim.UMSL.gif"
-umsl_master_anim_path = os.path.join(master_image_dir, umsl_anim_name)
-umsl_resume_anim_path = os.path.join(resume_image_dir, umsl_anim_name)
-
-# last slice
-umsl_last_slice_name = filename_stem + "most_recent_day.UMSL.png"
-umsl_master_last_slice_path = os.path.join(master_image_dir, umsl_last_slice_name)
-umsl_resume_last_slice_path = os.path.join(resume_image_dir, umsl_last_slice_name)
 
 
 # #########################################################################
@@ -443,42 +443,11 @@ first_frame.save(fp=master_anim_path, format='GIF', append_images=frame_set,
          save_all=True, duration=duration_vec, loop=0)
 
 
-# ## Version for UMSL (watermarked)
-# # #########################################################################
-# # create UMSL animation
-# # code snippet referenced from: https://stackoverflow.com/a/57751793/12316727  
-# #                                    by https://stackoverflow.com/users/2123555/kris
-# filepaths
-print("\nLoading UMSL watermark")
-umsl_logo_img = Image.open(umsl_watermark).convert("RGBA")
-umsl_logo_img = umsl_logo_img.resize((200, 91))
-
-
-# assignment for name clarity
-umsl_pngs = pngs
-
-
-# use list comprehension instead of for loop for brevity.  past is an in-place op.
-_ = [img.paste(umsl_logo_img, (1680, 957), umsl_logo_img) for img in umsl_pngs]
-
-# unpack and create umsl animation
-print("Rendering UMSL animation\n")
-first_frame_umsl, *frame_set_umsl = umsl_pngs
-first_frame_umsl.save(fp=umsl_master_anim_path, format='GIF', append_images=frame_set_umsl,
-         save_all=True, duration=duration_vec, loop=0)
-
-
 # ## Copy and link files
 # #########################################################################
 # last slice
 print("Copying main most recent day to master images dir")
 shutil.copy(last_image, master_last_slice_path)
-
-# grab and save last image in umsl frame set
-print("Saving UMSL most recent day to master images dir")
-last_frame_umsl = frame_set_umsl[-1]
-last_frame_umsl.save(fp=umsl_master_last_slice_path, format='PNG')
-# NOTE: umsl last slice was saved directly
 
 
 # #########################################################################
@@ -487,15 +456,11 @@ if not args.debug:
     print("\nLinking animations to resume repo:")
     print("Master:")
     os.link(master_anim_path, resume_anim_path)
-    print("UMSL:")
-    os.link(umsl_master_anim_path, umsl_resume_anim_path)
 
     # resume
     print("\nLinking last day images to resume repo:")
     print("Master:")
     os.link(master_last_slice_path, resume_last_slice_path)
-    print("UMSL:")
-    os.link(umsl_master_last_slice_path, umsl_resume_last_slice_path)
 else:
     print("\tDEBUG MODE: skipping links to resume repo")
 
