@@ -10142,3 +10142,222 @@ Changing directory to root master repo dir: covid_graph_model
 Attempting: git add * && git commit && git push
 
 >>>>>>> 491f33136f7c15652cf0a7acfa618998bfdb3731
+/bin/bash: ./happy/deep_learning/covid_graph_model/bash_scripts/auto_update.sh: No such file or directory
+/bin/bash: ./home/happy/deep_learning/covid_graph_model/bash_scripts/auto_update.sh: No such file or directory
+Regenerating at Fri Sep  4 17:05:04 CDT 2020
+--------------------------------------
+Attempting to pull Johns Hopkins repo
+--------------------------------------
+From github.com:CSSEGISandData/COVID-19
+   2c6e6c81..10b4fcdf  web-data   -> origin/web-data
+Already up to date.
+
+Attempting to pull private project repo
+--------------------------------------
+Already up to date.
+
+Attempting to pull public resume repo
+--------------------------------------
+Already up to date.
+
+Running python scripts
+--------------------------------------
+Changing directory to covid_graph_model/python_scripts
+
+jh_clean_codemap.py
+--------------------------------
+(3340, 12)
+jh_clean_us_timeseries.py
+--------------------------------
+
+> jh_check_timeseries.py
+--------------------------------
+
+> jh_render_spread-master.py ::
+
+USA: cum cases
+--------------------------------
+Unable to revert mtime: /usr/local/share/fonts
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - USA; debug - False
+
+Maxium value of feature is:  244999
+Maximum value of colorbar is:  250000.0
+
+Number of time steps: 226
+
+The date is: 09-04-20
+Removing previous jh-log_cum_cases-USA_cur
+Moving previous current to jh-log_cum_cases-USA_old
+Making new jh-log_cum_cases-USA_cur directory.  Sub dir is: gen_09-04-20
+
+Most recent date is: 09-03-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-USA_cur/gen_09-04-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+Copying main most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+
+Linking last day images to resume repo:
+Master:
+
+!!!Script jh_render_spread-master.py: ending
+
+USA: cum deaths
+--------------------------------
+Unable to revert mtime: /usr/local/share/fonts
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - USA; debug - False
+
+Maxium value of feature is:  7290
+Maximum value of colorbar is:  7300.0
+
+Number of time steps: 226
+
+The date is: 09-04-20
+Removing previous jh-log_cum_deaths-USA_cur
+Moving previous current to jh-log_cum_deaths-USA_old
+Making new jh-log_cum_deaths-USA_cur directory.  Sub dir is: gen_09-04-20
+
+Most recent date is: 09-03-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-USA_cur/gen_09-04-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+Copying main most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+
+Linking last day images to resume repo:
+Master:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum cases
+--------------------------------
+Unable to revert mtime: /usr/local/share/fonts
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_cases; location - MO_IL; debug - False
+
+Maxium value of feature is:  244999
+Maximum value of colorbar is:  250000.0
+
+Number of time steps: 226
+
+The date is: 09-04-20
+Removing previous jh-log_cum_cases-MO_IL_cur
+Moving previous current to jh-log_cum_cases-MO_IL_old
+Making new jh-log_cum_cases-MO_IL_cur directory.  Sub dir is: gen_09-04-20
+
+Most recent date is: 09-03-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_cases-MO_IL_cur/gen_09-04-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+Copying main most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+
+Linking last day images to resume repo:
+Master:
+
+!!!Script jh_render_spread-master.py: ending
+
+MO_IL: cum deaths
+--------------------------------
+Unable to revert mtime: /usr/local/share/fonts
+!!!Script jh_render_spread-master.py: BEGIN
+
+Arguments: feature - cum_deaths; location - MO_IL; debug - False
+
+Maxium value of feature is:  7290
+Maximum value of colorbar is:  7300.0
+
+Number of time steps: 226
+
+The date is: 09-04-20
+Removing previous jh-log_cum_deaths-MO_IL_cur
+Moving previous current to jh-log_cum_deaths-MO_IL_old
+Making new jh-log_cum_deaths-MO_IL_cur directory.  Sub dir is: gen_09-04-20
+
+Most recent date is: 09-03-2020
+
+
+All images rendered to: 
+	/home/happy/deep_learning/covid_graph_model/images/spread_anim/jh/jh-log_cum_deaths-MO_IL_cur/gen_09-04-20
+
+Preparing to remove previous animation and 'most_recent_day' from root images dir
+Removing...
+
+Globbing rendered pngs
+Rendering main animation
+Copying main most recent day to master images dir
+
+Linking animations to resume repo:
+Master:
+
+Linking last day images to resume repo:
+Master:
+
+!!!Script jh_render_spread-master.py: ending
+
+gifsicle: warning: huge GIF, conserving memory (processing may take a while)
+gifsicle: warning: too many colors, using local colormaps
+  (You may want to try ‘--colors 256’.)
+gifsicle: warning: huge GIF, conserving memory (processing may take a while)
+gifsicle: warning: too many colors, using local colormaps
+  (You may want to try ‘--colors 256’.)
+gifsicle: warning: too many colors, using local colormaps
+  (You may want to try ‘--colors 256’.)
+gifsicle: warning: huge GIF, conserving memory (processing may take a while)
+gifsicle: warning: too many colors, using local colormaps
+  (You may want to try ‘--colors 256’.)
+> jh_collect_zips.py
+--------------------------------
+python3: can't open file 'jh_collect_zips.py': [Errno 2] No such file or directory
+
+Removing unneeded images directory covid_graph_model/images/spread_anim/jh
+Update master repo.
+--------------------------------------
+Changing directory to root master repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
+
+[master fc07f3e] auto update animation
+ 2 files changed, 207 insertions(+)
+
+To github.com:jml-happy/covid_graph.git
+   79569a9..fc07f3e  master -> master
+
+
+Update resume repo
+--------------------------------------
+Changing directory to root resume repo dir: covid_graph_model
+Attempting: git add * && git commit && git push
+
