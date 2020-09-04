@@ -252,9 +252,9 @@ animation_figure = go.Figure(layout=layout_var)
 # Variables
 state_border_thickness = 1.25
     
-if feature_type[1] is "cases":
+if feature_type[1] == "cases":
     color_scale = "Darkmint"
-elif feature_type[1] is "deaths":
+elif feature_type[1] == "deaths":
     color_scale = "matter"
 
 
