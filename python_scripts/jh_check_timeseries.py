@@ -27,7 +27,7 @@ jh_empty_single_index = jh_empty_slice_df.loc[jh_empty_slice_df.index.get_level_
 
 
 # if the existing empty slice isn't correct for the current timeslice, create a new one
-if not (jh_empty_single_index == jh_ts_single_index).all():
+if not (len(jh_empty_single_index) == len(jh_ts_single_index and jh_empty_single_index == jh_ts_single_index).all()):
     import numpy as np
     day_zero = jh_timeseries_df.loc[jh_timeseries_df.index.get_level_values(0)[0]].copy()
     day_zero_dt = np.datetime64("2020-01-21")
