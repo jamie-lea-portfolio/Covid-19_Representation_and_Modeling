@@ -10,7 +10,7 @@ Scroll down to see just MO/IL.  Images are 1280x720.  Folder link at bottom.
 #### USA Most Recent Day
 Cummulative Cases          | Cummulative Deaths
 :-------------------------:|:-------------------------:
-| <img align="left" src=images/jh-log_cum_cases-USA_most_recent_day.png>|<img align="right" src=images/jh-log_cum_deaths-USA_most_recent_day.png> |
+| <img align="left" src=images/jh-log_cum_cases-USA_most_recent_day.png> | <img align="right" src=images/jh-log_cum_deaths-USA_most_recent_day.png> |
 
 #### Animations for all available dates ( USA )
 <img src=images/jh-log_cum_cases-USA_anim.gif>
@@ -19,7 +19,7 @@ Cummulative Cases          | Cummulative Deaths
 #### MO / IL Most Recent Day
 Cummulative Cases          | Cummulative Deaths
 :-------------------------:|:-------------------------:
-:<img align="left" src=images/jh-log_cum_cases-MO_IL_most_recent_day.png>:|:<img align="right" src=images/jh-log_cum_deaths-MO_IL_most_recent_day.png>:
+| <img align="left" src=images/jh-log_cum_cases-MO_IL_most_recent_day.png> | <img align="right" src=images/jh-log_cum_deaths-MO_IL_most_recent_day.png> |
 
 #### Animations for all available dates ( MO/IL )
 <img src=images/jh-log_cum_cases-MO_IL_anim.gif>
