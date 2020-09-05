@@ -11,7 +11,6 @@ Scroll down to see just MO/IL.  Images are 1280x720.  Folder link at bottom.
 Most Recent Day | |
 :-------------------------:|:-------------------------:
 USA Cummulative Cases          |  USA Cummulative Deaths
-:-------------------------:|:-------------------------:
 | <img align="left" src=images/jh-log_cum_cases-USA_most_recent_day.png>|<img align="right" src=images/jh-log_cum_deaths-USA_most_recent_day.png> |
 
 <img src=images/jh-log_cum_cases-USA_anim.gif>
