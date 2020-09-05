@@ -9,7 +9,7 @@ Scroll down to see just MO/IL.  Images are 1280x7200.  Folder link at bottom.
 
 USA Cummulative Cases             |  USA Cummulative Deaths
 :-------------------------:|:-------------------------:
-![USA Cummulative Cases](images/jh-log_cum_cases-USA_most_recent_day.png =400)  |  ![USA Cummulative Deaths](images/jh-log_cum_deaths-USA_most_recent_day.png =400)
+![USA Cummulative Cases](https://raw.githubusercontent.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling/master/images/jh-log_cum_cases-USA_most_recent_day.png =400)  |  ![USA Cummulative Deaths](https://raw.githubusercontent.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling/master/images/jh-log_cum_deaths-USA_most_recent_day.png =400)
 
 
 <img src=images/jh-log_cum_cases-MO_IL_anim.gif>
