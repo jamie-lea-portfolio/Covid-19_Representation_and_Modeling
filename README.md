@@ -1,5 +1,7 @@
 # Covid-19 Representation and Modeling
-<img align="right" width="500" src=images/jh-log_cum_cases-USA_most_recent_day.png>This is a portion of an ongoing project.  Currently the only public portion is the data and code necessary to generate these animations.  Data is sourced from Johns Hopkins University and the US Census Bureau (county state shape files).  The animations and most recent day images are automatically regenerated everyday at about 5:00 am CST.
+<img align="right" width="500" src=images/jh-log_cum_cases-USA_most_recent_day.png>This is a portion of an larger project.  Currently the only public portion is the data and code necessary to generate these animations.  Data is sourced from Johns Hopkins University and the US Census Bureau (county state shape files).  The animations and most recent day images are automatically regenerated everyday at about 5:00 am CST.
+
+The original goal was to forecast COVID-19 as a network diffusion process using GNN's.  Deep Mind beat me to it while I was still doing literature review, so I have since moved on.
 
 Scroll down to see just MO/IL.  Images are 1280x7200.  Folder link at bottom.
 <img src=images/jh-log_cum_cases-USA_anim.gif>
