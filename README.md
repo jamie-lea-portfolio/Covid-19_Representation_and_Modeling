@@ -5,11 +5,14 @@ The original goal was to forecast COVID-19 via modelling as a network diffusion 
 
 Scroll down to see just MO/IL.  Images are 1280x7200.  Folder link at bottom.
 
+![USA Cummulative Cases](https://raw.githubusercontent.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling/master/images/jh-log_cum_cases-USA_most_recent_day.png =400)
+
 <img src=images/jh-log_cum_cases-USA_anim.gif>
 
 USA Cummulative Cases             |  USA Cummulative Deaths
 :-------------------------:|:-------------------------:
-![USA Cummulative Cases](https://raw.githubusercontent.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling/master/images/jh-log_cum_cases-USA_most_recent_day.png =400)  |  ![USA Cummulative Deaths](https://raw.githubusercontent.com/jamie-lea-portfolio/Covid-19_Representation_and_Modeling/master/images/jh-log_cum_deaths-USA_most_recent_day.png =400)
+<img align="left" width="400" src=images/jh-log_cum_cases-USA_most_recent_day.png>  |  
+<img align="right" width="400" src=images/jh-log_cum_deaths-USA_most_recent_day.png>
 
 
 <img src=images/jh-log_cum_cases-MO_IL_anim.gif>
