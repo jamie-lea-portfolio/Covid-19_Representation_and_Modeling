@@ -1,7 +1,7 @@
 # Covid-19 Representation and Modeling
 This is a portion of an larger project that is on hold.  Currently the only public portion is the data and code necessary to generate these animations.  Data is sourced from Johns Hopkins University and the US Census Bureau (county state shape files).  The animations and most recent day images are automatically regenerated everyday at 5:00 am CST.
 
-This may be updated with 'new cases' & 'new deaths'.  Howewver, John's Hopkins data is not monotonicly increasing and fixing their data so as to properly calculate the rolling window was not a priority.
+This may be updated with 'new cases' & 'new deaths'.  Howewver, John's Hopkins data is not monotonicly increasing and fixing their data so as to properly calculate the rolling window is not a priority.
 
 The original goal was to forecast COVID-19 via modelling as a network diffusion process using an STGNN, hence the focus on the USA for which FIPS subunit divisions (counties, parishes, etc.) provide high spatial resolution not found in data for other parts of the world.
 
