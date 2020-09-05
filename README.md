@@ -1,5 +1,5 @@
 # Covid-19 Representation and Modeling
-This is a portion of an larger project that is on hold.  Currently the only public portion is the data and code necessary to generate these animations.  Data is sourced from Johns Hopkins University and the US Census Bureau (county state shape files).  The animations and most recent day images are automatically regenerated everyday at 5:00 am CST.
+This is a portion of an larger project that is on hold.  Currently the only public portion is the data and code necessary to generate these animations.  Data is sourced from Johns Hopkins University and the US Census Bureau (county state shape files and FIPS codes).  The animations and most recent day images are automatically regenerated everyday at 5:00 am CST.
 
 This may be updated with 'new cases' & 'new deaths'.  Howewver, John's Hopkins data is not monotonicly increasing and fixing their data so as to properly calculate the rolling window is not a priority.
 
@@ -12,7 +12,7 @@ The code to represent this data as a series of NetworkX graphs may be cleaned up
 Scroll down to see just MO/IL.  Images are 1280x720.  Folder link at bottom.
 
 #### USA Most Recent Day
-Cummulative Cases          | Cummulative Deaths
+Cumulative Cases          | Cumulative Deaths
 :-------------------------:|:-------------------------:
 | <img align="left" src=images/jh-log_cum_cases-USA_most_recent_day.png> | <img align="right" src=images/jh-log_cum_deaths-USA_most_recent_day.png> |
 
@@ -21,7 +21,7 @@ Cummulative Cases          | Cummulative Deaths
 <img src=images/jh-log_cum_deaths-USA_anim.gif>
 
 #### MO / IL Most Recent Day
-Cummulative Cases          | Cummulative Deaths
+Cumulative Cases          | Cumulative Deaths
 :-------------------------:|:-------------------------:
 | <img align="left" src=images/jh-log_cum_cases-MO_IL_most_recent_day.png> | <img align="right" src=images/jh-log_cum_deaths-MO_IL_most_recent_day.png> |
 
